@@ -43,7 +43,7 @@ plt.plot(line1,'r-')
 
 # In[16]:
 
-x_labels = df["zip_code"]
+x_labels = df[zip_code]
 
 slope, intercept, r_value, p_value, std_err = stats.linregress(x, year)
 line1 = intercept + slope*x
@@ -62,7 +62,7 @@ print(data)
 
 # In[17]:
 
-user_year = int(input("Willing to predict year : "))
+user_year = int(input("enter a year to predict: "))
 print("ZIP CODE : ", zip_code)
 print("Predicted total income of the zip code : ", (user_year*slope) + intercept)
 
