@@ -1,0 +1,36 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 3 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model /Users/romeo -seed 1
+Relation:     unflipped2_data-weka.filters.unsupervised.attribute.Remove-R13
+Instances:    402
+Attributes:   12
+              zip_code
+              1998
+              2001
+              2004
+              2005
+              2006
+              2007
+              2010
+              2011
+              2012
+              2013
+              2014
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.14 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.0207
+Mean absolute error                    380.3694
+Root mean squared error                440.0477
+Relative absolute error                 99.0041 %
+Root relative squared error            101.4046 %
+Total Number of Instances              402     
+

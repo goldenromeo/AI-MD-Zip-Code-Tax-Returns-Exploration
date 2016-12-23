@@ -1,0 +1,99 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.DecisionTable -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5"
+Relation:     delMe
+Instances:    167334
+Attributes:   73
+              STATEFIPS
+              STATE
+              ZIPCODE
+              agi_stub
+              N1
+              MARS2
+              PREP
+              N2
+              NUMDEP
+              A00100
+              N00200
+              A00200
+              N00300
+              A00300
+              N00600
+              A00600
+              N00650
+              A00650
+              N00900
+              A00900
+              SCHF
+              N01000
+              A01000
+              N01400
+              A01400
+              N01700
+              A01700
+              N02300
+              A02300
+              N02500
+              A02500
+              N03300
+              A03300
+              N04470
+              A04470
+              N18425
+              A18425
+              N18450
+              A18450
+              N18500
+              A18500
+              N18300
+              A18300
+              N19300
+              A19300
+              N19700
+              A19700
+              N04800
+              A04800
+              N07100
+              A07100
+              N07220
+              A07220
+              N07180
+              A07180
+              N07260
+              A07260
+              N59660
+              A59660
+              N59720
+              A59720
+              N11070
+              A11070
+              N09600
+              A09600
+              N06500
+              A06500
+              N10300
+              A10300
+              N11901
+              A11901
+              N11902
+              A11902
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Table:
+
+Number of training instances: 167334
+Number of Rules : 127
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 511
+	Merit of best subset found: 3254.655
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 2,21,38,3
+
+Time taken to build model: 75.11 seconds
+

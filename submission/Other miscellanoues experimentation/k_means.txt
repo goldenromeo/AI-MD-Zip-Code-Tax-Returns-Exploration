@@ -1,0 +1,38 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 10 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     unflipped2_data-weka.filters.unsupervised.attribute.Remove-R13
+Instances:    402
+Attributes:   12
+              zip_code
+              1998
+              2001
+              2004
+              2005
+              2006
+              2007
+              2010
+              2011
+              2012
+              2013
+              2014
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 10 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.962 
+Mean absolute error                  61883.1801
+Root mean squared error             207825.8248
+Relative absolute error                 12.7753 %
+Root relative squared error             30.5827 %
+Total Number of Instances              402     
+
