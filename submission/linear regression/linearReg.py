@@ -66,7 +66,7 @@ print(data)
 
 # In[20]:
 
-user_year = int(input("willing to predict year : "))
+user_year = int(input("Year to predict: "))
 print("ZIP CODE : ", zip_code)
 print("Predicted income : ", (user_year*slope) + intercept)
 
