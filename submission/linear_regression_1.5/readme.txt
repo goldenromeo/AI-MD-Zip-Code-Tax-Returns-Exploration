@@ -1,1 +1,3 @@
-to use do python linearReg.py <zip code>
+to use do python simply run linearReg.py
+
+and respond to prompts as asked
